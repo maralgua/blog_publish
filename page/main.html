@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        ${require('./include/_meta.html')}
+        <script>
+            (function(d) {
+              var config = {
+                kitId: 'adw8piw',
+                scriptTimeout: 3000,
+                async: true
+              },
+              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+        </script>
+    </head>
+    <body>
+        ${require('./include/_header.html')}
+        ${require('./include/_mainBanner.html')}
+
+        <main class="main"> 
+           <section style="background-color: #7DCEA0;"><div class="box1 aos-init aos-animate"><h1>Animate On Scroll Library</h1></div></section>
+           <section style="background-color: #FAD7A0;"><div class="box2 aos-init aos-animate" data-aos="fade-right">test</div></section>
+           <section style="background-color: #AED6F1;"><div class="box3 aos-init aos-animate" data-aos="flip-left">test</div></section>
+           <section style="background-color: #CCD1D1;"><div class="box4 aos-init aos-animate" data-aos="fade-up">test</div></section>
+        </main>
+        
+        ${require('./include/_footer.html')}
+    </body>
+</html>

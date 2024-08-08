@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+/*-------------------------------------------------------------------
+    File definitio: Responsive css on all pages
+    Order: header > main > sub pages > footer
+-------------------------------------------------------------------*/
+
+@media screen and (max-width: 1470.98px) {}
+@media screen and (max-width: 1300.98px) {}
+@media screen and (max-width: 1000.98px) {}
+@media screen and (max-width: 767.98px) {}
+@media screen and (max-width: 575.98px) {}
+@media screen and (max-width: 483px) {}

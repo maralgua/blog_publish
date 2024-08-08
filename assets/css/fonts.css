@@ -1,0 +1,55 @@
+@charset "utf-8";
+/*-------------------------------------------------------------------
+    파일정의: Web fonts
+    순서:    Noto Sans CJK KR (100, 200, 300, 400, 500, 700, 900)
+-------------------------------------------------------------------*/
+
+@font-face { 
+	font-family: 'Noto Sans CJK KR'; 
+	font-style: normal; 
+	font-weight: 100; 
+	src:url(../../fonts/NotoSans/NotoSansKR-Thin.woff) format('woff'), 
+		url(../../fonts/NotoSans/NotoSansKR-Thin.woff2) format('woff2'); 
+} 
+@font-face { 
+	font-family: 'Noto Sans CJK KR'; 
+	font-style: normal; 
+	font-weight: 200; 
+	src:url(../../fonts/NotoSans/NotoSansKR-Light.woff) format('woff'), 
+		url(../../fonts/NotoSans/NotoSansKR-Light.woff2) format('woff2'); 
+} 
+@font-face { 
+	font-family: 'Noto Sans CJK KR'; 
+	font-style: normal; 
+	font-weight: 300; 
+	src:url(../../fonts/NotoSans/NotoSansKR-DemiLight.woff) format('woff'), 
+		url(../../fonts/NotoSans/NotoSansKR-DemiLight.woff2) format('woff2'); 
+} 
+@font-face { 
+	font-family: 'Noto Sans CJK KR'; 
+	font-style: normal; 
+	font-weight: 400; 
+	src:url(../../fonts/NotoSans/NotoSansKR-Regular.woff) format('woff'), 
+		url(../../fonts/NotoSans/NotoSansKR-Regular.woff2) format('woff2'); 
+} 
+@font-face { 
+	font-family: 'Noto Sans CJK KR'; 
+	font-style: normal; 
+	font-weight: 500; 
+	src:url(../../fonts/NotoSans/NotoSansKR-Medium.woff) format('woff'), 
+		url(../../fonts/NotoSans/NotoSansKR-Medium.woff2) format('woff2'); 
+} 
+@font-face { 
+	font-family: 'Noto Sans CJK KR'; 
+	font-style: normal; 
+	font-weight: 700; 
+	src:url(../../fonts/NotoSans/NotoSansKR-Bold.woff) format('woff'), 
+		url(../../fonts/NotoSans/NotoSansKR-Bold.woff2) format('woff2'); 
+} 
+@font-face { 
+	font-family: 'Noto Sans CJK KR'; 
+	font-style: normal; 
+	font-weight: 900; 
+	src:url(../../fonts/NotoSans/NotoSansKR-Black.woff) format('woff'), 
+		url(../../fonts/NotoSans/NotoSansKR-Black.woff2) format('woff2'); 
+} 

@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/*-------------------------------------------------------------------
+    File definition: Main page style
+    Order:    Contents > Main top(banner) > Aside
+-------------------------------------------------------------------*/
+
+main section {height: 100vh;padding: 50px;}
+main section div {height: 200px;width: 600px;background-color: red;}
+
+main h1 {
+    font-size: 50px;
+    color: #000;
+    font-weight: 700;
+    transition: font-size 0.5s ease-in-out;
+    animation: tit_ani 1s linear;
+    animation-fill-mode: both;}
+
+@keyframes tit_ani {
+    0% {
+        transform: translateY(80px);
+        opacity:0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity:1;
+    }
+}
+
+
+

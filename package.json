@@ -1,0 +1,22 @@
+{
+  "name": "publish",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "bootstrap": "^5.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "html-includes": "^4.4.1",
+    "sass": "^1.39.2"
+  },
+  "scripts": {
+    "compile": "html-includes --src page --dest dist",
+    "compile-minify": "html-includes --src page --dest dist --minify",
+    "compile-watch": "html-includes --src page --dest dist --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
