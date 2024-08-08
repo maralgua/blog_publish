@@ -14,14 +14,43 @@
         </script>
     </head>
     <body>
-        ${require('./include/_header.html')}
-        ${require('./include/_mainBanner.html')}
-
-        <main class="main"> 
-           <section style="background-color: #7DCEA0;"><div class="box1 aos-init aos-animate"><h1>Animate On Scroll Library</h1></div></section>
-           <section style="background-color: #FAD7A0;"><div class="box2 aos-init aos-animate" data-aos="fade-right">test</div></section>
-           <section style="background-color: #AED6F1;"><div class="box3 aos-init aos-animate" data-aos="flip-left">test</div></section>
-           <section style="background-color: #CCD1D1;"><div class="box4 aos-init aos-animate" data-aos="fade-up">test</div></section>
+        <main class="main container"> 
+          <div class="wrapper_banner">
+            <div class="img">
+              <img src="../assets/imgs/main/main_banner.png" alt="banner">
+            </div>
+              <div class="sub_box">
+                <div class="box_bottom">
+                  <p class="category_highlight_on">Technology</p>
+                  <h3>The Impact of Technology on the Workplace: How Technology is Changing<h3>
+                </div>
+                <div class="box_profile">
+                  <img src="../assets/imgs/main/user.png" alt="">
+                  <p class="user_name">Jason Francisco</p>
+                  <p class="post_date">August 20, 2022</p>
+                </div>
+              </div>
+            </div>
+            <div class="main_section01">
+              <div class="main_advertise">
+                <img src="../assets/imgs/main/advertise.png" alt="main_advertise">
+              </div>
+            </div>
+            <div class="main_section02">
+              <h3 class="sub_title">Latest Post</h3>
+                <div class="post_list">
+                  <div class="post">
+                    <img src="../assets/imgs/main/postpic_1.png" alt="postpic_1">
+                    <p class="category_highlight_off">Technology</p>
+                    <h4>The Impact of Technology on the Workplace: How Technology is Changing</h4>
+                      <div class="box_profile">
+                        <img src="../assets/imgs/main/user.png" alt="">
+                        <p class="user_name">Jason Francisco</p>
+                        <p class="post_date">August 20, 2022</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
         </main>
         
         ${require('./include/_footer.html')}
